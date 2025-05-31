@@ -5,8 +5,8 @@ Quero cadastrar novas atividades
 Para consultar as atividades disponiveis em sistema
 
 Criterios de Aceitação 
-- Deve ter um nome unico
-- A descrição é obrigatoria
-- O nome deve ser alfanumerico em formato string
-- o nome deve ter o maximo de 15 caracteres
-- a descrição deve ter o maximo de 100 caracteres
+- A resposta deve retornar HTTP 200.
+-Deve retornar uma lista com todas as atividades cadastradas com apenas 
+    - ID
+    - Titulo
+    - Data e hora da criação
