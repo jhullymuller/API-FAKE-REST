@@ -1,0 +1,10 @@
+### Casos de Testes "Test Case" ###
+
+Casos de Testes em Gherkin/PT
+
+
+CT008 :: Deletar uma Actividade por ID
+    Dado que faço uma requisição DELETE para /Authors por um ID especifico
+    Então o código de resposta deve ser 200
+    E Autor selecionado deve apagado
+

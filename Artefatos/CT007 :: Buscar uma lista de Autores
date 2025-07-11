@@ -1,0 +1,9 @@
+### Casos de Testes "Test Case" ###
+
+Casos de Testes em Gherkin/PT
+
+
+CT007 :: Buscar uma lista de Autores 
+    Dado que faço uma requisição GET para /Authors por um ID especifico
+    Então o código de resposta deve ser 200
+    E uma lista contendo todos os Autores cadastrados deve retornar com os campos: ID, id livro, primeiro nome, ultimo nome.
