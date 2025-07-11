@@ -1,0 +1,9 @@
+### Casos de Testes "Test Case" ###
+
+Casos de Testes em Gherkin/PT
+
+
+CT002 :: Buscar uma lista de todas as Actividades cadastradas
+    Dado que faço uma requisição GET para /Actividades sem nenhum filtro
+    Então o código de resposta deve ser 200
+    E uma lista contendo todas as actividades cadastradas deve retornar com os cammpos: ID, titulo, data e hora e concluido.

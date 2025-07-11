@@ -1,0 +1,10 @@
+### Casos de Testes "Test Case" ###
+
+Casos de Testes em Gherkin/PT
+
+
+CT005 :: Adicionar um Autor com sucesso 
+    Dado que envio uma requisição POST para /Authors 
+    Quando informo os dados válidos
+    Então o código de resposta deve ser 200
+    E o autor criado deve ser retornado com ID, IDbook, o nome e o sobrenome

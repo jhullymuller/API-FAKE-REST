@@ -1,0 +1,10 @@
+### Casos de Testes "Test Case" ###
+
+Casos de Testes em Gherkin/PT
+
+
+CT001 :: Adicionar uma nova Actividade do Autor com sucesso 
+    Dado que envio uma requisição POST para /Actividades 
+    Quando informo os dados válidos
+    Então o código de resposta deve ser 200
+    E o atictividade criada deve ser retornado com ID, titulo, data e hora e concluido.
